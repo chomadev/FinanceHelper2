@@ -1,0 +1,33 @@
+eu quero um sistema para gerenciar as finanças da família
+
+planejado x realizado
+receitas
+    - fixas
+    - eventuais
+gastos
+    - fixos
+    - eventuais
+
+importar extrato da conta e do cartão
+    - qual formato?
+    - agente de AI para classificar automaticamente
+        - enviar dados para API
+        - receber retorno em JSON
+        - identificar gastos recorrentes e eventuais
+        - criar registros no planejador financeiro
+
+relatórios
+    - previsão de evolução patrimonial
+    - lembretes de contas a vencer
+    - média de consumo, semanal, fim de semana, mensal
+    - meses com maiores variações
+
+planejamento de aquisições
+    - metas
+    - sugestões de consumo
+    - ajustes nas depesas
+
+$env:GEMINI_API_KEY="AIzaSyC8pUOLvBXNS2n3DcetyO42y7mESDrl7W0"
+$env:FINANCE_HELPER_CONNECTION_STRING="Host=localhost;Port=5438;Database=FinancialHelperDB;Username=postgres;Password=ddugv3pk"
+
+
